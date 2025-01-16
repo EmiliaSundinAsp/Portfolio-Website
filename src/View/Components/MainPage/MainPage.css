@@ -1,0 +1,58 @@
+
+.MainPage {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 60vw;
+	height: 60vh;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 2px 2px 0px 4px #000;
+}
+
+.dark .MainPage {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 60vw;
+	height: 60vh;
+	background-color: #1C2438;
+	border-radius: 8px;
+	box-shadow: 2px 2px 0px 4px #000;
+}
+
+.AboutContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: left;
+}
+
+.SkillsContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	width: 50vw;
+	height: 40vh;
+}
+
+.ProjectsContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	width: 50vw;
+	height: 40vh;
+}
+
+.ContactContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	width: 50vw;
+	height: 40vh;
+}

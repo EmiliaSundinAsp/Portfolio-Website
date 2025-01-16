@@ -1,0 +1,97 @@
+.NavBar {
+	width: 100vw;
+	height: 8vh;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 0px 0px 8px 8px;
+	box-shadow: 0px 0px 0px 4px #000;
+}
+
+.NavLink {
+	display: flex;
+	color: #000;
+	width: 10vw;
+	justify-content: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Kalam;
+	font-size: 28px;
+	text-decoration: none;
+	font-style: bold;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.NavLink:hover {
+	color: #FF651E;
+	font-size: 34px;
+}
+
+.DarkModeBtn {
+	font-size: 20px;
+	line-height: 1;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	min-width: 160px;
+	min-height: 30px;
+	font-family: Kalam;
+	font-style: bold;
+	font-weight: 700;
+	padding: 8px;
+	background-color: white;
+	color: #000000;
+	box-shadow: 1px 2px 0px 3px #000;
+}
+
+.DarkModeBtn:hover {
+background-color: #FF651E;
+}
+
+.dark .NavBar {
+	width: 100vw;
+	height: 8vh;
+	background-color: #1C2438;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 0px 0px 8px 8px;
+	box-shadow: 0px 0px 0px 4px #000;
+}
+
+.dark .NavLink {
+	display: flex;
+	color: #ffffff;
+	width: 10vw;
+	justify-content: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Kalam;
+	font-size: 28px;
+	text-decoration: none;
+	font-style: bold;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.dark .NavLink:hover {
+	color: #698D9D;
+	font-size: 34px;
+}
+
+.dark .DarkModeBtn {
+	font-size: 24px;
+	line-height: 1;
+	border-radius: 8px;
+	border: 2px solid white;
+	min-width: 160px;
+	min-height: 30px;
+	font-family: Kalam;
+	padding: 8px;
+	background-color: #0A0A23;
+	color: #ffffff;
+	box-shadow: 1px 2px 0px 3px #000;
+}
+
+.dark .DarkModeBtn:hover {
+	background-color: #698D9D;
+}

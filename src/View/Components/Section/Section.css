@@ -1,0 +1,103 @@
+
+.Section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	width: 25vw;
+	height: 20vh;
+	/*border: solid 2px black;*/
+	padding: 5px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 0;
+
+}
+
+.Heading {
+	font-weight: bold;
+	font-family: Kalam;
+	font-size: 24px;
+	width: 25vw;
+	/*
+	text-decoration: underline dotted;
+	text-underline-position: under;
+	*/
+	background: linear-gradient(#ffeeaf 0 0) left / var(--p, 0) no-repeat;
+	transition: .4s, background-position 0s;
+}
+
+.Paragraph {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.25;
+	text-align: left;
+	background: linear-gradient(#ffeeaf 0 0) right / var(--p, 0) no-repeat;
+	transition: .4s, background-position 0s;
+}
+
+.Heading:hover {
+	font-weight: bold;
+	--p: 100%;
+	background-position: right;
+
+}
+
+.Paragraph:hover {
+	font-size: 20;
+	--p: 100%;
+	background-position: left;
+}
+
+.dark .Section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	width: 25vw;
+	height: 20vh;
+	/*border: solid 2px black;*/
+	padding: 5px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 0;
+	color: white;
+
+}
+
+.dark .Heading {
+	font-weight: bold;
+	font-family: Kalam;
+	font-size: 24px;
+	width: 25vw;
+	color: white;
+	/*
+	text-decoration: underline dotted;
+	text-underline-position: under;
+	*/
+	background: linear-gradient(#698D9D 0 0) left / var(--p, 0) no-repeat;
+	transition: .4s, background-position 0s;
+}
+
+.dark .Paragraph {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.25;
+	text-align: left;
+	background: linear-gradient(#698D9D 0 0) right / var(--p, 0) no-repeat;
+	transition: .4s, background-position 0s;
+}
+
+.dark .Heading:hover {
+	font-weight: bold;
+	--p: 100%;
+	background-position: right;
+
+}
+
+.dark .Paragraph:hover {
+	font-size: 20;
+	--p: 100%;
+	background-position: left;
+}
